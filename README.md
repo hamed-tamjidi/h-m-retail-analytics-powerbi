@@ -45,7 +45,8 @@ A 10-chapter end-to-end retail analytics portfolio built on a synthetic H&M data
 ## Chapter Highlights
 
 ### Chapter 2 — Promotion Effectiveness Analysis
-![Promotion Effectiveness Analysis](screenshots/ch2_promotion.png)
+
+![Promotion Effectiveness Analysis](ch2_promotion.png)
 
 **Key Finding:** Discount depth does not predict promotional lift. The Summer Sale (90% discount) delivered 159% lift — but the Reopen Sale achieved 150% lift at only 60% discount. Higher discounts erode margin without guaranteeing stronger demand response.
 
@@ -59,7 +60,8 @@ A 10-chapter end-to-end retail analytics portfolio built on a synthetic H&M data
 ---
 
 ### Chapter 6 — Inventory Health Metrics
-![Inventory Health Metrics](screenshots/ch6_inventory_health.png)
+
+![Inventory Health Metrics](ch6_inventory_health.png)
 
 **Key Finding:** Portfolio GMROI of 2.59 is below the healthy retail benchmark of 3.0+. The long tail of slow-moving SKUs is dragging portfolio returns down despite a healthy core assortment.
 
@@ -73,7 +75,8 @@ A 10-chapter end-to-end retail analytics portfolio built on a synthetic H&M data
 ---
 
 ### Chapter 7 — Customer Behaviour / RFM Analysis
-![Customer RFM](screenshots/ch7_rfm.png)
+
+![Customer RFM](rfm.png)
 
 **Key Finding:** Champions visit 63 times on average vs Lost customers at 2. Despite this engagement gap, promo purchase rates are consistent across all segments (~55–57%), confirming that promotional dependency is a business model issue — not a low-value customer problem.
 
@@ -88,7 +91,8 @@ A 10-chapter end-to-end retail analytics portfolio built on a synthetic H&M data
 ---
 
 ### Chapter 9 — Assortment Efficiency
-![Assortment Efficiency](screenshots/ch9_assortment.png)
+
+![Assortment Efficiency](ch9_assortment.png)
 
 **Key Finding:** Class C SKUs (54% of the assortment) generate only 5% of revenue while accumulating $36.6M in stranded inventory — $15 tied up for every $1 earned. The assortment is carrying significant dead weight.
 
@@ -102,7 +106,8 @@ A 10-chapter end-to-end retail analytics portfolio built on a synthetic H&M data
 ---
 
 ### Chapter 10 — Demand Forecasting
-![Demand Forecasting](screenshots/ch8_forecasting.png)
+
+![Demand Forecasting](ch8_forecasting.png)
 
 Three-scenario Y3 forecast model with interactive growth rate assumption slicer. Fall consistently drives peak demand across both historical and forecast periods.
 
@@ -119,7 +124,7 @@ Three-scenario Y3 forecast model with interactive growth rate assumption slicer.
 ### Operational Dashboard
 *For allocation analysts and replenishment planners — weekly decision support*
 
-![Operational Dashboard](screenshots/ch10_operational.png)
+![Operational Dashboard](ch10_operational.png)
 
 | KPI | Value | Signal |
 |---|---|---|
@@ -127,8 +132,8 @@ Three-scenario Y3 forecast model with interactive growth rate assumption slicer.
 | Overstock SKU Count (13W) | 6,637 | 22% of assortment too heavy |
 | Zero-Sell SKUs (13W) | 20K | 67% had no sales last quarter |
 | Total Ending Inventory Value | $198.65M | Capital tied up |
-| Sell-Through Rate (Week 88) | 19% → declining to 13% (Week 100) | Worsening sell velocity |
-| WOS Trend (Week 88) | 59 weeks → rising to 87 (Week 100) | Stock accumulating |
+| Sell-Through Rate (Week 88→100) | 19% → 13% | Worsening sell velocity |
+| WOS Trend (Week 88→100) | 59 → 87 weeks | Stock accumulating |
 | Portfolio GMROI | 2.59 | Below 3.0+ benchmark |
 | SKUs Below ROP | 8,586 | Reorder signal |
 
@@ -139,7 +144,7 @@ Three-scenario Y3 forecast model with interactive growth rate assumption slicer.
 ### Strategic Dashboard
 *For merchandise directors and senior buyers — quarterly business review*
 
-![Strategic Dashboard](screenshots/ch10_strategic.png)
+![Strategic Dashboard](ch10_strategic.png)
 
 | KPI | Value | Signal |
 |---|---|---|
@@ -186,7 +191,7 @@ Three-scenario Y3 forecast model with interactive growth rate assumption slicer.
 - Threshold-based ABC classification
 - Custom column logic for week mapping and promo flags
 
-### Data Modeling
+### Data Modelling
 - Star schema design across 8+ tables
 - Calculated column bridges for relationship chain extension
 - Enter Data tables for chart workarounds
@@ -211,26 +216,6 @@ Three-scenario Y3 forecast model with interactive growth rate assumption slicer.
 | DAX | All measures and calculated columns |
 | Power Query (M) | Data transformation and ABC classification |
 | GitHub | Portfolio hosting |
-
----
-
-## Repository Structure
-
-```
-retail-analytics-project2/
-│
-├── README.md
-├── screenshots/
-│   ├── ch2_promotion.png
-│   ├── ch6_inventory_health.png
-│   ├── ch7_rfm.png
-│   ├── ch9_assortment.png
-│   ├── ch8_forecasting.png
-│   ├── ch10_operational.png
-│   └── ch10_strategic.png
-│
-└── Project2_HM_Analytics.pbix
-```
 
 ---
 
